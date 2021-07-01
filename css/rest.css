@@ -2,6 +2,7 @@
     font-family: Poppins, 'BlinkMacSystemFont', -apple-system, 'Roboto', 'Lucida Sans';
     /* border:1px solid #ccc; */
     /* margin: 0 auto; */
+    outline: 1px solid red;
 }
 /* .container{
   margin: 0 auto;
@@ -498,18 +499,24 @@
   margin:20px auto;
   /* display: flex; */
   
+  
 }
 
 .navbar1 ul li{
   margin: 0 5px;
   /* display: flex; */
+  
 }
+
 .navbar1 ul{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   padding: 0;
+  flex-wrap: wrap;
+ 
 }
+
 @media (max-width: 560px){
   .picture18{
     display: none;
@@ -517,8 +524,15 @@
   .picture17{
     display: none;
 }
+.navbar1 ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 0;
+  flex-wrap: wrap;
+ 
+}
 
-/* @media (max-width: 560px){
-  .picture17{
-    display: none;
-  } */
+
+}
+
